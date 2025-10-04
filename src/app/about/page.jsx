@@ -1,8 +1,12 @@
 import Image from "next/image";
+import Member from "../../components/AboutPage/Member";
+import Generosity from "../../components/LandingPage/Generosity";
+import Footer from "../../components/LandingPage/Footer";
 
 const AboutPage = () => {
     return(
-        <div className="max-w-[1200px] mx-auto px-[16px] md:px-[20px] xl:px-0 pt-[52px] md:pt-[72px] text-[#06192F]">
+        <main>
+        <main className="max-w-[1282px] mx-auto px-[16px] md:px-[20px] xl:px-0 pt-[52px] md:pt-[72px] text-[#06192F]">
             <div className="space-y-[24px] text-center">
                 <h1 className="font-[600] text-[42px] text-[#181D27] tracking-[-2%]">The Visionary Behind SlumTech</h1>
                 <h5 className="text-[#535862] text-[20px]">Meet Olanrewaju Ogunleye</h5>
@@ -67,14 +71,53 @@ const AboutPage = () => {
                 </div>
              </section>
 
-             <section className="mt-[20px] md:pt-[80px] space-y-[38px]">
+             <section className="mt-[20px] md:pt-[80px] w-full">
                 <h2 className="font-[500] text-[32px] leading-[144%] hidden md:block text-center w-full">Member</h2>
-                <div>
-                    
-                </div>
 
+                <div className="flex justify-between flex-wrap mt-[38px]">
+                <Member
+                    img="/images/project.png"
+                    classname="w-[46px] sm:w-[134px] h-[46px] sm:h-[141px]"
+                    title="Project Management Institute"
+                />
+
+                <Member
+                    img="/images/world.png"
+                    classname="w-[53px] sm:w-[128px] h-[48px] sm:h-[114px]"
+                    title="World Economic Forum"
+                />
+
+                <Member
+                    img="/images/institute.png"
+                    classname="w-[48px] sm:w-[114px] h-[48px] sm:h-[114px]"
+                    title="Institute of Directors"
+                />
+
+                <Member
+                    img="/images/electrical.png"
+                    classname="w-[49px] sm:w-[116px] h-[48px] sm:h-[114px]"
+                    title="Institute of Electrical and Electronics Engineers"
+                />
+
+                <Member
+                    img="/images/chattam.png"
+                    classname="w-[48px] sm:w-[110px] h-[48px] sm:h-[114px]"
+                    title="Chatham House"
+                />
+
+                 <Member
+                    img="/images/forbes.png"
+                    classname="w-[48px] sm:w-[114px] h-[48px] sm:h-[114px]"
+                    title="Forbes Technology Council"
+                />
+                </div>
              </section>
-        </div>
+             <div className="my-[52px]">
+              <Generosity />
+              </div>
+        </main>
+         <Footer />
+         </main>
     )
 }
 

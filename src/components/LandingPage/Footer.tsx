@@ -3,19 +3,8 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    // <footer className="bg-gray-50 py-12 px-6">
-    //   <div className="max-w-7xl mx-auto">
-    //     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-
-
-
-    //     </div>
-
-    //     
-
-    // </footer>
-    <footer className="py-[64px] lg:px-20 md:px-7 px-2 bg-[#F5F5F5] space-y-18">
-      <div className="flex justify-between max-[682px]:flex-col max-[682px]:gap-4">
+    <footer className="py-[64px] lg:px-20 md:px-7 px-[16px] bg-[#F5F5F5] space-y-18 w-full">
+      <div className="max-w-[1282px] mx-auto flex justify-between max-[682px]:flex-col max-[682px]:gap-4">
         <div className="space-y-4 ">
           <Image src="/assets/logo.png" alt="logo" width={111} height={44} />
           <p className="text-[#414651] leading-relaxed max-w-xs">
@@ -50,7 +39,7 @@ export default function Footer() {
         </div>
 
       </div>
-      <div className="pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-start gap-4">
+      <div className="max-w-[1282px] mx-auto pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-start gap-4">
         <div className="flex flex-wrap items-center gap-4 text-sm text-[#414651] ">
           <span>© 2025 SlumTech Foundation. All rights reserved.</span>
           <a href="#terms" className="hover:text-gray-900 transition-colors">Terms</a>

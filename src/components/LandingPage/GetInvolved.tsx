@@ -37,14 +37,14 @@ const GetInvolved = () => {
         </div>
         <div className="grid grid-cols-5 max-[1211px]:grid-cols-4 max-[831px]:grid-cols-3 max-[652px]:grid-cols-2 max-[467px]:grid-cols-1 max-[542px]:w-full gap-4">
             {
-                DONATIONS.map((donation)=> (
-                    <div key={donation.title} className="border border-[#E9EAEB] bg-[#FFFFFF] w-full h-[324px] flex flex-col justify-between p-4 rounded-[16px]">
+                DONATIONS.map((donate, i)=> (
+                    <div key={i} className="border border-[#E9EAEB] bg-[#FFFFFF] w-full h-[324px] flex flex-col justify-between p-4 rounded-[16px]">
                         <div>
-                            <h3 className="font-semibold text-[#535862]">{donation.title}</h3>
-                            <p className="text-[#181D27] font-semibold text-[48px]">{donation.amount}</p>
-                            <p className="leading-[24px]">{donation.content}</p>
+                            <h3 className="font-semibold text-[#535862]">{donate.title}</h3>
+                            <p className="text-[#181D27] font-semibold text-[48px]">{donate.amount}</p>
+                            <p className="leading-[24px]">{donate.content}</p>
                         </div>
-                        <button className="border border-green text-green font-semibold rounded-xl py-4 cursor-pointer hover:bg-green hover:text-white">Donate {donation.amount === "Custom" ? "" : donation.amount}</button>
+                        <button className="border border-green text-green font-semibold rounded-xl py-4 cursor-pointer hover:bg-green hover:text-white">Donate {donate.amount === "Custom" ? "" : donate.amount}</button>
                     </div>
                 ))
             }

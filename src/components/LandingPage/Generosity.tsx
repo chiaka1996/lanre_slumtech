@@ -1,6 +1,6 @@
 const Generosity = () => {
   return (
-    <section className="lg:mx-20 md:mx-7 mx-2 h-[200px] max-[1103px]:h-[220px] max-[780px]:h-[250px] max-[450px]:h-[350px] bg-[#119566] relative rounded-[16px]">
+    <section className="max-w-[1282px] mx-auto  h-[200px] max-[1103px]:h-[220px] max-[780px]:h-[250px] max-[450px]:h-[350px] bg-[#119566] relative rounded-[16px]">
         <div className="space-y-[20px] max-[558px]:space-y-[10px] z-50 h-full w-full absolute flex justify-between items-center px-[50px] max-[616px]:px-[20px] max-[1222px]:gap-2 max-[1222px]:flex-wrap">
             <div className="text-[#FAFCFE] space-y-[16px]">
                 <h3 className="text-[40px] max-[740px]:text-[32px] font-semibold">Your Generosity powers possibility</h3>
