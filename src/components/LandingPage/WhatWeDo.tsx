@@ -23,7 +23,7 @@ const WhatWeDo = () => {
                     <p className="max-[726px]:text-sm">We equip youth and women with entrepreneurship training, coding bootcamps, and mentorship — unlocking self-reliance and leadership.</p>
                 </div>
 
-                <Image className="absolute right-4 min-[726px]:top-0 max-[1230px]:right-0 max-[726px]:bottom-0 bottom-0 min-[726px]:my-auto max-[603px]:w-[100px] max-[603px]:h-[100px] z-[5]" src="/assets/fly.png" alt="Graduation Hat" width={248} height={248} />
+                <Image className="absolute right-4 bottom-0 max-[603px]:w-[100px] max-[603px]:h-[100px] z-[5]" src="/assets/fly.png" alt="Graduation Hat" width={248} height={248} />
                 <div className="absolute w-full h-full top-0 bg-[url('/assets/wavy-texture.png')] bg-cover bg-center"> </div>
             </div>
 
@@ -33,7 +33,7 @@ const WhatWeDo = () => {
                     <p className="max-[726px]:text-sm">We light up schools and communities with renewable energy, ensuring children can learn, dream, and achieve — even after sunset.</p>
                 </div>
 
-                <Image className="absolute right-4 min-[726px]:top-0 max-[1230px]:right-0 max-[726px]:bottom-0 bottom-0 min-[726px]:my-auto max-[603px]:w-[100px] max-[603px]:h-[100px] z-[5]" src="/assets/energize.png" alt="Graduation Hat" width={184} height={257} />
+                <Image className="absolute right-4 bottom-0 max-[603px]:w-[100px] max-[603px]:h-[100px] z-[5]" src="/assets/energize.png" alt="Graduation Hat" width={184} height={257} />
                 <div className="absolute w-full h-full top-0 bg-[url('/assets/wavy-texture.png')] bg-cover bg-center"> </div>
             </div>
 
@@ -43,7 +43,7 @@ const WhatWeDo = () => {
                     <p className="max-[726px]:text-sm">Through technology, AI, and global partnerships, we connect communities to opportunities, breaking cycles of exclusion and creating cycles of possibility.</p>
                 </div>
 
-                <Image className="absolute right-4 min-[726px]:top-0 max-[1230px]:right-0 max-[726px]:bottom-0 bottom-0 min-[726px]:my-auto max-[603px]:w-[100px] max-[603px]:h-[100px] z-[5]" src="/assets/elevate.png" alt="Graduation Hat" width={163} height={204} />
+                <Image className="absolute right-4 bottom-0 max-[603px]:w-[100px] max-[603px]:h-[100px] z-[5]" src="/assets/elevate.png" alt="Graduation Hat" width={163} height={204} />
                 <div className="absolute w-full h-full top-0 bg-[url('/assets/wavy-texture.png')] bg-cover bg-center"> </div>
             </div>
         </div>
