@@ -14,7 +14,8 @@ const OurPartner = () => {
     //     "good-360"
     // ]
   return (
-    <section className="lg:mx-20 md:mx-7 mx-2 flex flex-col items-center max-[542px]:items-start">
+    <section className="w-full lg:px-20 md:px-7 px-2 xl:px-0" id="partner" >
+    <section className="max-w-[1282px] mx-auto flex flex-col items-center max-[542px]:items-start">
         <h2 className="text-[48px] max-[542px]:text-[24px] max-[542px]:w-[200px] font-medium">Our Collaborative Partnerships</h2>
 
         <div className="grid grid-cols-5 max-[1146px]:grid-cols-4 max-[903px]:grid-cols-3 max-[611px]:grid-cols-2 max-[611px]:w-full max-[430px]:grid-cols-1 gap-4">
@@ -49,7 +50,7 @@ const OurPartner = () => {
                 <Image src="/assets/good-360.png" alt="good 360" width={154} height={40} />
             </div>
         </div>
-        
+        </section>
     </section>
   )
 }

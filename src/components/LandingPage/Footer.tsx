@@ -1,5 +1,6 @@
 import { LinkedIn, Twitter, Instagram } from "@/utils/icons";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -15,10 +16,10 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-[#252B37] mb-4">Explore</h3>
             <ul className="space-y-3">
-              <li><a href="#mission" className="text-[#414651] hover:text-black transition-colors">Mission</a></li>
-              <li><a href="#programs" className="text-[#414651] hover:text-black transition-colors">Programs</a></li>
-              <li><a href="#impact" className="text-[#414651] hover:text-black transition-colors">Impact</a></li>
-              <li><a href="#get-involved" className="text-[#414651] hover:text-black transition-colors">Get Involved</a></li>
+              <li><Link href="/#mission" className="text-[#414651] hover:text-black transition-colors">Mission</Link></li>
+              <li><Link href="/#program" className="text-[#414651] hover:text-black transition-colors">Programs</Link></li>
+              <li><Link href="/#impact" className="text-[#414651] hover:text-black transition-colors">Impact</Link></li>
+              <li><Link href="#donate" className="text-[#414651] hover:text-black transition-colors">Get Involved</Link></li>
             </ul>
           </div>
 
@@ -47,24 +48,24 @@ export default function Footer() {
           <a href="#cookies" className="hover:text-gray-900 transition-colors">Cookies</a>
         </div>
         <div className="flex items-center gap-4">
-          <a 
-            href="#linkedin"
+          <Link
+            href="https://www.linkedin.com/company/underserve/"
             aria-label="LinkedIn"
           >
             <LinkedIn />
-          </a>
-          <a 
+          </Link>
+          <Link
             href="#twitter"
             aria-label="Twitter"
           >
             <Twitter />
-          </a>
-          <a 
-            href="#instagram"
+          </Link>
+          <Link
+            href="https://www.instagram.com/slumtechfoundation?igsh=MTNpNHgxeG5mZHI4Yg%3D%3D&utm_source=qr"
             aria-label="Instagram"
           >
             <Instagram />
-          </a>
+          </Link>
         </div>
       </div>
     </footer>

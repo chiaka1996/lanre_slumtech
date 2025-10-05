@@ -30,7 +30,8 @@ const GetInvolved = () => {
         }
     ]
   return (
-    <section className="lg:mx-20 md:mx-7 mx-2 flex flex-col gap-[48px] items-center">
+    <section className="lg:px-20 md:px-7 px-2 xl:px-0 w-full" id="donate">
+    <section className="max-w-[1282px] mx-auto flex flex-col gap-[48px] items-center">
         <div className="text-black w-full flex flex-col items-center max-[542px]:items-start max-w-[835px] gap-[32px]">
             <h2 className="text-[48px] max-[542px]:text-[24px] font-medium">Get Involved</h2>
             <p className="text-[20px] max-[542px]:text-[16px] text-center max-[542px]:text-start">Your contribution directly impacts children and communities, creating lasting change through education, technology, and opportunity. Your $10 $20 $50 + is of great impact to our mission and projects across the globe</p>
@@ -59,6 +60,7 @@ const GetInvolved = () => {
             <Image src="/assets/amex.png" alt="Visa" width={58} height={40} />
             <Image src="/assets/paypalIcon.png" alt="Visa" width={58} height={40} />
         </div>
+    </section>
     </section>
   )
 }

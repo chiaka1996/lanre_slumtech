@@ -4,7 +4,8 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="lg:py-20 lg:px-20 md:px-7 px-2 bg-[url('/assets/hero-bg-pattern.png')] bg-cover bg-center w-full flex items-center justify-between flex-row max-[1204px]:flex-col max-[1204px]:gap-7">
+    <section className="bg-[url('/assets/hero-bg-pattern.png')] w-full lg:py-20 lg:px-20 md:px-7 px-2 xl:px-0 bg-cover bg-center">
+    <section className="max-w-[1282px] mx-auto flex items-center justify-between flex-row max-[1204px]:flex-col max-[1204px]:gap-7">
         <div className="w-[597px] space-y-[32px] max-[1204px]:w-full max-[1204px]:flex max-[1204px]:flex-col max-[1204px]:items-center">
           <div className="space-y-[20px] max-[1204px]:flex max-[1204px]:flex-col max-[1204px]:items-center">
             <div className="space-y-4 max-[1204px]:flex max-[1204px]:flex-col max-[1204px]:items-center">
@@ -19,10 +20,10 @@ const Hero = () => {
          
           <p className="text-[20px] max-[726px]:text-sm text-black max-w-[480px] max-[1204px]:w-full max-[1204px]:text-center">At SlumTech Foundation, we use technology, education, and compassion to break the cycle of poverty and create pathways to possibility.</p>
           <div className="flex flex-wrap gap-4">
-            <Link href="/donate" className="max-[434px]:w-full max-[434px]:text-center bg-green hover:bg-white hover:text-green rounded-xl font-semibold py-4 px-6 text-white">
+            <Link href="/#mission" className="max-[434px]:w-full max-[434px]:text-center bg-green hover:bg-white hover:text-green rounded-xl font-semibold py-4 px-6 text-white">
               Join the Mission
             </Link>
-            <Link href="/donate" className="max-[434px]:w-full max-[434px]:text-center border-[1.5px] border-green hover:bg-green hover:text-white text-green rounded-xl font-semibold py-4 px-6">
+            <Link href="/#donate" className="max-[434px]:w-full max-[434px]:text-center border-[1.5px] border-green hover:bg-green hover:text-white text-green rounded-xl font-semibold py-4 px-6">
               Supports a Child Today
             </Link>
           </div>
@@ -30,6 +31,7 @@ const Hero = () => {
         <div className="relative w-[613px] max-[726px]:w-full h-[702px] max-[726px]:h-[600px] max-[502px]:h-[500px] max-[376px]:h-[304px]">
           <Image src="/assets/hero-image.png" alt="Hero Image" fill />
         </div>
+      </section>
       </section>
   )
 }
