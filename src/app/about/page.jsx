@@ -2,6 +2,7 @@ import Image from "next/image";
 import Member from "../../components/AboutPage/Member";
 import Generosity from "../../components/LandingPage/Generosity";
 import Footer from "../../components/LandingPage/Footer";
+import Link from "next/link";
 
 const AboutPage = () => {
     return(
@@ -19,15 +20,21 @@ const AboutPage = () => {
 
                 {/* social media links */}
              <div className="mt-[34px] flex justify-center gap-x-[16px] items-end">
+                <Link href="https://www.linkedin.com/company/underserve/">
                 <div className="relative w-[24px] h-[24px] cursor-pointer">
                     <Image src="/icons/linkedin.png" fill alt="slumtech foundation linkedin" className="object-cover" />
                 </div>
+                </Link>
+                <Link href="https://www.facebook.com/share/17DAy9i7XC/?mibextid=wwXIfr">
                 <div className="relative w-[24px] h-[24px] cursor-pointer">
                     <Image src="/icons/facebook.png" fill alt="slumtech foundation linkedin" className="object-cover" />
                 </div>
+                </Link>
+                <Link href="https://www.instagram.com/slumtechfoundation?igsh=MTNpNHgxeG5mZHI4Yg%3D%3D&utm_source=qr">
                  <div className="relative w-[24px] h-[24px] cursor-pointer">
                     <Image src="/icons/instagram.png" fill alt="slumtech foundation linkedin" className="object-cover" />
                 </div>
+                </Link>
                  <div className="relative w-[24px] h-[24px] cursor-pointer">
                     <Image src="/icons/x.png" fill alt="slumtech foundation linkedin" className="obect-cover" />
                 </div>

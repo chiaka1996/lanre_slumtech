@@ -11,25 +11,25 @@ const Navbar = () => {
     const NAVS = [
         {
             title: "Missions",
-            href: "/missions"
+            href: "/#mission"
         },
         {
             title: "Program",
-            href: "/program"
+            href: "/#program"
         },
         {
             title: "Impact",
-            href: "/impact"
+            href: "/#impact"
         },
         {
             title: "Get Involved",
-            href: "/get-involved"
+            href: "/#donate"
         }
     ]
     
     return (
-        <header className="py-5 lg:px-20 md:px-7 px-2 border-b border-[#E9EAEB]">
-            
+        <section className="py-5 lg:px-20 md:px-7 px-2 xl:px-0 border-b border-[#E9EAEB]">
+        <header className="max-w-[1282px] mx-auto ">  
             <div className="hidden md:flex items-center justify-between">
                 <Image src="/assets/logo.png" alt="logo" width={111} height={44} />
                 <nav>
@@ -41,7 +41,7 @@ const Navbar = () => {
                         ))}
                     </ul>
                 </nav>
-                <Link href="/donate" className="bg-green rounded-xl font-semibold py-4 px-6 text-white">
+                <Link href="/#donate" className="bg-green rounded-xl font-semibold py-4 px-6 text-white">
                     Donate
                 </Link>
             </div>
@@ -85,7 +85,7 @@ const Navbar = () => {
                                     </ul>
                                 </nav>
                                 <Link 
-                                    href="/donate" 
+                                    href="/#donate" 
                                     className="block bg-green rounded-xl font-semibold py-4 px-6 text-white text-center"
                                     onClick={() => setIsMenuOpen(false)}
                                 >
@@ -97,7 +97,8 @@ const Navbar = () => {
                 )}
             </div>
         </header>
+        </section>
     )
 }
 
-export default Navbar
+export default Navbar;

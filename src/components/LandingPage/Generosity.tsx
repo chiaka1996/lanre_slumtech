@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const Generosity = () => {
   return (
     <section className="max-w-[1282px] mx-auto  h-[200px] max-[1103px]:h-[220px] max-[780px]:h-[250px] max-[450px]:h-[350px] bg-[#119566] relative rounded-[16px]">
@@ -8,8 +10,12 @@ const Generosity = () => {
             </div>
 
             <div className="flex max-[450px]:flex-col flex-wrap items-center gap-4 max-[450px]:w-full">
+                <Link href="/#donate">
                 <button className="max-[450px]:w-full text-green bg-[#FAFCFE] hover:bg-[#92E8C8] cursor-pointer py-4 px-6 rounded-xl font-semibold">Donate Now</button>
+                </Link>
+                <Link href="/#partner">
                 <button className="max-[450px]:w-full text-green bg-[#92E8C8] hover:bg-[#FAFCFE] cursor-pointer py-4 px-6 rounded-xl font-semibold">Partner with Us</button>
+                </Link>
             </div>
         </div>
 

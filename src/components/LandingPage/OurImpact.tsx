@@ -9,7 +9,8 @@ const OurImpact = () => {
         "Recognized by global leaders and U.S. officials for outstanding community impact"
     ]
   return (
-    <section className="lg:p-10 md:p-7 p-2 pb-5 lg:mx-20 md:mx-7 mx-2 bg-[#FEE7B8] rounded-2xl flex gap-[16px] flex-row max-[1301px]:flex-col">
+    <section className=" pb-5 lg:px-20 md:px-7 px-2 xl:px-0" id="impact">
+    <section className="max-w-[1282px] mx-auto lg:p-10 md:p-7 p-2  bg-[#FEE7B8] rounded-2xl flex gap-[16px] flex-row max-[1301px]:flex-col">
         <div className="space-y-[32px] max-[542px]:space-y-[20px] w-[636px] max-[701px]:w-full p-5 max-[542px]:p-4">
             <h2 className="text-[48px] max-[542px]:text-[24px] font-medium text-black">Our Impact</h2>
             <p className="text-[24px] max-[542px]:text-[16px] text-[#252B37]">We measure progress by lives transformed and opportunities created.</p>
@@ -42,6 +43,7 @@ const OurImpact = () => {
                 <p className="text-[21px]">Reduced Violations</p>
             </div>
         </div>
+    </section>
     </section>
   )
 }

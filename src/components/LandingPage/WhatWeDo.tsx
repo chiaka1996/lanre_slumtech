@@ -1,7 +1,8 @@
 import Image from "next/image"
 const WhatWeDo = () => {
   return (
-    <section className="text-black lg:px-20 md:px-7 px-2 space-y-[48px] max-[726px]:space-y-5">
+    <section className="px-2 md:px-7 lg:px-20 xl:px-0" id="program">
+    <section className="max-w-[1282px] mx-auto text-black space-y-[48px] max-[726px]:space-y-5">
         <div className="space-y-[12px]">
             <h2 className="text-5xl  max-[726px]:text-[24px] font-medium">What We Do</h2>
             <p className="text-[20px] max-[726px]:text-sm">We focus on four pillars that unlock possibility and dignity for every child and family.</p>
@@ -47,6 +48,7 @@ const WhatWeDo = () => {
                 <div className="absolute w-full h-full top-0 bg-[url('/assets/wavy-texture.png')] bg-cover bg-center"> </div>
             </div>
         </div>
+    </section>
     </section>
   )
 }
