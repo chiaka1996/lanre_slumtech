@@ -1,4 +1,4 @@
-import { LinkedIn, Twitter, Instagram } from "@/utils/icons";
+import { LinkedIn, Twitter, Instagram, Facebook } from "@/utils/icons";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -54,8 +54,11 @@ export default function Footer() {
           >
             <LinkedIn />
           </Link>
+          <Link href="https://www.facebook.com/share/17DAy9i7XC/?mibextid=wwXIfr">
+          <Facebook aria-label="Facebook" />
+          </Link>
           <Link
-            href="#twitter"
+            href="https://x.com/slumtechfdt?s=11&t=HgFY3GVV5Pwv6N0cQBnBWQ"
             aria-label="Twitter"
           >
             <Twitter />

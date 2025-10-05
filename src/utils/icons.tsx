@@ -50,6 +50,25 @@ export const Twitter = ({className}: IconsProps)=> {
     )
 }
 
+export const Facebook = ({ className }: IconsProps) => {
+  return (
+    <svg
+      className={className}
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M13 10.5V8.5C13 8.10218 13.158 7.72064 13.4393 7.43934C13.7206 7.15804 14.1022 7 14.5 7H16V3H14.5C12.8431 3 11.2538 3.65893 10.086 4.826C8.91893 5.99377 8.26 7.58305 8.26 9.24V10.5H6V14H8.26V21H12.26V14H15L15.5 10.5H12.26Z"
+        fill="#414651"
+      />
+    </svg>
+  );
+};
+
+
 export const Instagram = ({className}: IconsProps)=> {
     return (
         <svg className={className} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

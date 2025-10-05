@@ -20,7 +20,7 @@ const AboutPage = () => {
 
                 {/* social media links */}
              <div className="mt-[34px] flex justify-center gap-x-[16px] items-end">
-                <Link href="https://www.linkedin.com/company/underserve/">
+                <Link href="https://www.linkedin.com/in/olanrewaju-o-27400b1a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
                 <div className="relative w-[24px] h-[24px] cursor-pointer">
                     <Image src="/icons/linkedin.png" fill alt="slumtech foundation linkedin" className="object-cover" />
                 </div>
@@ -30,17 +30,21 @@ const AboutPage = () => {
                     <Image src="/icons/facebook.png" fill alt="slumtech foundation linkedin" className="object-cover" />
                 </div>
                 </Link>
-                <Link href="https://www.instagram.com/slumtechfoundation?igsh=MTNpNHgxeG5mZHI4Yg%3D%3D&utm_source=qr">
+                <Link href="Instagram: https://www.instagram.com/iamolanrewajuogunleye?igsh=MW9uenJwcmx6OWtvdw%3D%3D&utm_source=qr">
                  <div className="relative w-[24px] h-[24px] cursor-pointer">
                     <Image src="/icons/instagram.png" fill alt="slumtech foundation linkedin" className="object-cover" />
                 </div>
                 </Link>
+                <Link href="https://x.com/delarexone?s=11&t=HgFY3GVV5Pwv6N0cQBnBWQ">
                  <div className="relative w-[24px] h-[24px] cursor-pointer">
                     <Image src="/icons/x.png" fill alt="slumtech foundation linkedin" className="obect-cover" />
                 </div>
+                </Link>
+                <Link href="Forbes: https://councils.forbes.com/profile/Olanrewaju-Ogunleye-Founder-%7C-C-E-O-Delarex-Technologies-Inc/e881e8cc-e356-4335-b643-f6ba554e4b98">
                  <div className="relative w-[69px] h-[17px] cursor-pointer">
                     <Image src="/icons/forbes.png" fill alt="slumtech foundation linkedin" className="object-cover" />
                 </div>
+                </Link>
              </div>
 
              <section className="mt-[32px] md:mt-[66px] max-w-[920px] mx-auto leading-[144%] tracking-0 text-[16px] sm:[18px] md:text-[20px] space-y-[32px]">
