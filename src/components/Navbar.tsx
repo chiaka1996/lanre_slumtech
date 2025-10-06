@@ -10,6 +10,10 @@ const Navbar = () => {
     
     const NAVS = [
         {
+            title: "Founder",
+            href: "/founder"
+        }, 
+        {
             title: "Missions",
             href: "/#mission"
         },

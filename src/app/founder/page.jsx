@@ -9,7 +9,7 @@ const AboutPage = () => {
         <main>
         <main className="max-w-[1282px] mx-auto px-[16px] md:px-[20px] xl:px-0 pt-[52px] md:pt-[72px] text-[#06192F]">
             <div className="space-y-[24px] text-center">
-                <h1 className="font-[600] text-[42px] text-[#181D27] tracking-[-2%]">The Visionary Behind SlumTech</h1>
+                <h1 className="font-[600] text-[42px] text-[#181D27] tracking-[-2%]">Our Founder</h1>
                 <h5 className="text-[#535862] text-[20px]">Meet Olanrewaju Ogunleye</h5>
             </div>
              
